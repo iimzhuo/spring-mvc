@@ -19,6 +19,8 @@ public class HandlerAdapter {
      */
     public MyModelAndView executeHandler(HandlerMapping handler, HttpServletRequest req, Map<String,Object> map){
         Method method = handler.getMethod();
+
+        //xxx
         //获取方法上的参数及其注解信息
         Parameter[] parameters = method.getParameters();
         Object args[]=new Object[parameters.length];
