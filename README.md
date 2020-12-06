@@ -1,1 +1,1 @@
-# Spring bean
+# Spring
