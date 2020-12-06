@@ -40,6 +40,8 @@ public class UserController {
         List<Integer> list = userService.select(a1,b1);
         MyModelAndView myModelAndView = new MyModelAndView("index");
         myModelAndView.addAttribute("list",list);
+
+        System.out.println("Test success!");
         return myModelAndView;
     }
 }
